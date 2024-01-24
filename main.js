@@ -233,7 +233,7 @@ function setupGeometry() {
   occluderMaterial = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
   occluderMaterial.colorWrite = false;
 
-  // create room map
+  // create room map on the floor
   navigationArea = new THREE.Group();
   navigationArea.add(
     createWallElement(
